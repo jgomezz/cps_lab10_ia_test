@@ -9,7 +9,8 @@ class CustomIATest {
     @Test
     void getModel() {
 
-        String msg = CustomIA.getModel().chat("Generar un email de prueba");
+        String msg = CustomIA.getModel()
+                .chat("Generar un email de prueba");
 
         assertNotNull(msg);
         assertTrue(msg.contains("@"));
