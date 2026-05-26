@@ -1,0 +1,3 @@
+openai.base-url=http://your-server:port/api/v1
+openai.api-key=your-api-key-here
+openai.model-name=your-model-name
